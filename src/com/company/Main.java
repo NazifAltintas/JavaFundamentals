@@ -42,6 +42,9 @@ public class Main {
                 System.out.println("not leap year");
             }
         }
+
+//        there is a problem
+
         System.out.println("enter year again");
         double year2 = scan1.nextDouble();
         boolean four = (year2 % 4 == 0);
@@ -55,10 +58,10 @@ public class Main {
     }
 
 
-        public static double calcFee(double x){
-           double a;
-           a=x+x*0.13;
-           return a;
-        }
+    public static double calcFee(double x) {
+        double a;
+        a = x + x * 0.13;
+        return a;
     }
+}
 
